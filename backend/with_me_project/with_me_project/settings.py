@@ -11,13 +11,9 @@ https://docs.djangoproject.com/en/5.2/ref/settings/
 """
 
 from pathlib import Path
-import sys
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
-
-# Add the backend directory to Python path so we can import the home app
-sys.path.append(str(BASE_DIR.parent))
 
 
 # Quick-start development settings - unsuitable for production
@@ -29,7 +25,7 @@ SECRET_KEY = 'django-insecure-cr_=@@-w(z4@*ouz@*+@$5z!fz++(2okvb0%^55eqs#8+ex1kn
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -41,8 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'rest_framework',
-    'home',
+    'rest_framework'
 ]
 
 MIDDLEWARE = [
