@@ -4,7 +4,7 @@ function Attractions() {
     return (
         <div className="attractions">
             <h1>Milton Keynes Attractions</h1>
-            <p>Here are a list of a few of the best attractions around the Milton Keynes area below.</p>
+            <p id='attractions-paragraph'>Here are a list of a few of the best attractions around the Milton Keynes area below.</p>
             <ul className="attractions-list">
                 <li className="attractions-item">Bletchley Park</li>
                 <li className="attractions-item">Milton Keynes Museum</li>
