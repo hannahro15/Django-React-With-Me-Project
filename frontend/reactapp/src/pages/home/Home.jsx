@@ -1,13 +1,13 @@
-import React from 'react';
-import Container from 'react-bootstrap/Container';
+import Button from 'react-bootstrap/Button';
 
 function Home() {
-  return (
-    <Container className="mt-4">
-      <h1>Welcome to MK Attractions</h1>
-      <p>Discover amazing attractions and experiences!</p>
-    </Container>
-  );
+    return (
+        <div className='Home'>
+            <h1>Welcome to Milton Keynes</h1>
+            <p>Please view the attractions below by clicking the button to take you to the attractions page.</p>
+            <Button variant="secondary">View Attractions</Button>
+        </div>
+    )
 }
 
 export default Home;
