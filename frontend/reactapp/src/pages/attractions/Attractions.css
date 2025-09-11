@@ -1,0 +1,19 @@
+.attractions {
+    text-align: center;
+}
+
+.attractions-list {
+    list-style-type: none;
+    border: solid 1px black;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10%;
+    margin-top: 20px;
+}
+
+.attractions-item {
+    padding: 10px;
+    align-items: center;
+}
