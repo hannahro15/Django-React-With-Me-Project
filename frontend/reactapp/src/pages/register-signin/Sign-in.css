@@ -1,4 +1,4 @@
-.signin {
+.signin, .register {
     text-align: center;
     margin-top: 10%;
 }
@@ -6,3 +6,4 @@
 .form-label {
     padding: 10px;
 }
+
