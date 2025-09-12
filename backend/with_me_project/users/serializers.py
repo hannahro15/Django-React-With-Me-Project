@@ -16,7 +16,6 @@ class UserSerializer(serializers.ModelSerializer):
             password=validated_data['password'],
             dateofbirth =validated_data['date of birth'], 
             country=validated_data['country']
-
         )
         return user
 
