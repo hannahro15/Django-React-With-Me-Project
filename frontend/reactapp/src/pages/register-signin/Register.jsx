@@ -7,7 +7,7 @@ function Register() {
     <Form className="register">
       <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label className="form-label">Username: </Form.Label>
-        <Form.Control type="email" placeholder="Enter your username" required/>
+        <Form.Control type="name" placeholder="Enter your username" required/>
       </Form.Group>
 
       <Form.Group className="mb-3" controlId="formBasicEmail">
@@ -22,12 +22,12 @@ function Register() {
 
        <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label className="form-label">Date of Birth: </Form.Label>
-        <Form.Control type="email" placeholder="Enter your date of birth" required/>
+        <Form.Control type="name" placeholder="Enter your date of birth" required/>
       </Form.Group>
 
        <Form.Group className="mb-3" controlId="formBasicEmail">
         <Form.Label className="form-label">Country: </Form.Label>
-        <Form.Control type="email" placeholder="Enter the country where you are based" required/>
+        <Form.Control type="name" placeholder="Enter the country where you are based" required/>
       </Form.Group>
 
       <Button variant="primary" type="submit">
