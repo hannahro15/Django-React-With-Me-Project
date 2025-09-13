@@ -1,8 +1,7 @@
 .signin {
     text-align: center;
-    margin-top: 10%;
-    background-color: peachpuff;
     min-height: 100vh;
+    padding-top: 50px;
 }
 
 .form-label {

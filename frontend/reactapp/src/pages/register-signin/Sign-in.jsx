@@ -5,6 +5,7 @@ import './Sign-in.css'
 function Signin() {
   return (
      <Form className="signin">
+        <h1>Sign In</h1>
          <Form.Group className="mb-3" controlId="formBasicEmail">
             <Form.Label className="form-label">Email address: </Form.Label>
             <Form.Control type="email" placeholder="Enter email" />

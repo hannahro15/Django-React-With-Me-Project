@@ -5,7 +5,8 @@ import './Register.css'
 function Register() {
 
     return (
-    <Form className="register">
+        <Form className="register">
+        <h1>Register below</h1>
       <Form.Group className="mb-10" controlId="formBasicEmail">
         <Form.Label className="form-label">Username: </Form.Label>
         <Form.Control type="name" placeholder="Enter your username" required/>
