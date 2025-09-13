@@ -21,7 +21,7 @@ const handleSubmit = (e) => {
     })
 .   catch(error => {
         console.error('There was an error logging in!'), error);
-    });
+});
 };
 
 
