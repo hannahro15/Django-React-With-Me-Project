@@ -8,7 +8,6 @@ import Register from "./pages/register-signin/Register.jsx"
 import Signin from "./pages/register-signin/Sign-in.jsx"
 import Home from "./pages/home/Home.jsx"
 import Attractions from "./pages/attractions/Attractions.jsx"
-import Contact from "./pages/contact/Contact.jsx"
 
 function App() {
   return (
