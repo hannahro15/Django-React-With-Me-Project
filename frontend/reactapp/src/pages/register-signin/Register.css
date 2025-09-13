@@ -1,0 +1,22 @@
+ form {
+    background-color: peachpuff;
+ }
+ 
+ .register {
+    text-align: center;
+    margin-top: 10%;
+    min-height: 100vh;
+    padding-top: 50px;
+}
+
+.form-label {
+    padding: 10px;
+}
+
+.form-control {
+    margin: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}

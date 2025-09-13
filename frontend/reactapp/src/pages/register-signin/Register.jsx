@@ -3,9 +3,10 @@ import Form from 'react-bootstrap/Form';
 import './Register.css'
 
 function Register() {
+
     return (
     <Form className="register">
-      <Form.Group className="mb-3" controlId="formBasicEmail">
+      <Form.Group className="mb-10" controlId="formBasicEmail">
         <Form.Label className="form-label">Username: </Form.Label>
         <Form.Control type="name" placeholder="Enter your username" required/>
       </Form.Group>

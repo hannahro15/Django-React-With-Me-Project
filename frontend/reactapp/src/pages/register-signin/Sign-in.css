@@ -1,9 +1,18 @@
-.signin, .register {
+.signin {
     text-align: center;
     margin-top: 10%;
+    background-color: peachpuff;
+    min-height: 100vh;
 }
 
 .form-label {
     padding: 10px;
 }
 
+.form-control {
+    margin: 10px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
