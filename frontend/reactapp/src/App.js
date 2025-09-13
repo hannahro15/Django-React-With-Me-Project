@@ -20,7 +20,6 @@ function App() {
             <Nav className="me-auto">
               <Nav.Link as={Link} to="/" className="nav-link">Home</Nav.Link>
               <Nav.Link as={Link} to="/attractions" className="nav-link">Attractions</Nav.Link>
-              <Nav.Link as={Link} to="/contact" className="nav-link">Contact</Nav.Link>
               <NavDropdown title="Register/Signin" id="basic-nav-dropdown">
                 <NavDropdown.Item as={Link} to="/register" className="nav-link">Register</NavDropdown.Item>
                 <NavDropdown.Item as={Link} to="/sign-in" className="nav-link">Sign In</NavDropdown.Item>
@@ -33,7 +32,6 @@ function App() {
       <Routes >
         <Route path="/" element={<Home />} />
         <Route path="/attractions" element={<Attractions />} />
-        <Route path="/contact" element={<Contact />} />
         <Route path="/register" element={<Register />} />
         <Route path="/sign-in" element={<Signin />} />
       </Routes >
