@@ -9,8 +9,8 @@ import Signin from "./pages/register-signin/Sign-in.jsx"
 import Home from "./pages/home/Home.jsx"
 import Attractions from "./pages/attractions/Attractions.jsx"
 import Footer from "./components/Footer.jsx"
-import React, { useState } from ‘react’;
-import axios from ‘axios’;
+import React, { useState } from 'react';
+import axios from 'axios';
 
 function App() {
 

@@ -1,8 +1,8 @@
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 import './Register.css'
-import React, { useState } from ‘react’;
-import axios from ‘axios’;
+import React, { useState } from 'react';
+import axios from 'axios';
 
 function Register() {
 
@@ -57,7 +57,7 @@ const handleSubmit = (e) => {
         type="password" 
         placeholder="Password" 
         value={password}
-        onChange= {(e) => setPassword(e.target.value) }
+        onChange= {(e) => setPassword(e.target.value)}
         required/>
       </Form.Group>
 
