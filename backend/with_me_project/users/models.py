@@ -8,4 +8,5 @@ class Register(models.Model):
     dateofbirth = models.DateField(max_length=30)
     country = models.CharField(max_length=30)
 
-
+def __str__(self):
+    return f"{self.user_name}"
