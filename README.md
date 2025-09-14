@@ -15,5 +15,5 @@ I built the theme of this project on attractions in Milton Keynes. it has a home
 # Credits
 
 - Bletchley Park Image - [Bletchley Park Image](https://pixabay.com/photos/bletchley-park-mansion-house-park-5569574/)
-- Medium article on serializers - [Serializers article](https://medium.com/@iamyathz/)to-implement-a-registration-and-login-system-using-react-on-the-frontend-and-django-on-the-backend-01d9be957be9
+- Medium article on serializers - [Serializers article](https://medium.com/@iamyathz/to-implement-a-registration-and-login-system-using-react-on-the-frontend-and-django-on-the-backend-01d9be957be9)
 - Connect Django to React - [Django and React](https://www.youtube.com/watch?v=jPxEg3sH6aU)
