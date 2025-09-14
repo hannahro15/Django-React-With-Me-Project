@@ -4,8 +4,6 @@ A project build with a Django on the back-end and React front-end.
 
 I built the theme of this project on attractions in Milton Keynes. it has a home page, and an attractions page, and a registration and login page.
 
-Link to live site: https://hannahro15.github.io/Django-React-With-Me-Project/
-
 # How to run locally on your machine:
 
 1. In the terminal go in to your the directory in which to store the project using 'cd your-filename'.
